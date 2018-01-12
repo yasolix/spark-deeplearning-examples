@@ -28,6 +28,11 @@ tar xzf spark-2.1.1-bin-hadoop2.7.tgz
 #move to/opt/
 sudo mv spark-2.1.1-bin-hadoop2.7 /opt/spark
 
+#set environmental variables
+export JAVA_HOME="/usr/lib/jvm/java-8-oracle/"
+export SPARK_HOME="/opt/spark"
+
+
 # install python packages
 export LC_ALL=en_US.UTF-8
 export LANGUAGE=en_US.UTF-8
